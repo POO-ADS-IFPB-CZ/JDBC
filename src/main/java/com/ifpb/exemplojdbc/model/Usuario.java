@@ -6,6 +6,10 @@ public class Usuario {
     private String nome;
     private int idade;
 
+    public Usuario(){
+
+    }
+
     public Usuario(String cpf, String nome, int idade) {
         this.cpf = cpf;
         this.nome = nome;
